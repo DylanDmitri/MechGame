@@ -18,7 +18,7 @@ Two teams, mechs are either backline or frontline.
      team a     team a    team b    team b 
     backline  frontline  frontline backline
 
-Close range weapons are frontline-frontline only. Mid-range weapons can skip 1 zone, long range can run anywhere.
+Close range weapons are frontline-frontline only. Mid-range weapons can skip 1 zone, long range can hit anywhere.
 
 If only one mech remains on any side, it counts as both frontline and backline.
 
