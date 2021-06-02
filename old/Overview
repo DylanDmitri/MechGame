@@ -1,0 +1,147 @@
+GMS Everest
+   0/6 reactor stress
+   0/4 heat capacity
+
+   [] builtin: Utility Bay
+   [] flex slot
+   [][] big weapon slot
+
+
+done
+steel plating
+tac knife
+tac pistol
+
+
+=== Steel Plating ===
+1x Armor Plating 
+   [+HH]
+2x Heavy Plating
+   [+HHH] [-A]
+
+=== Jetset Boots ===
+1x Jet Boost
+   [+AAA] Reaction - When an attack misses you by a margin of 3 or less, take 2 heat.
+2x Sidestep
+   [+A]
+
+=== Tac Knife ===
+Stab 
+   Melee Attack, AGI vs AGI, onhit deal 1 armor piercing damage
+Slice 
+   Melee Attack, AGI vs AGI, onhit deal 2 damage
+Sidestep 
+   [+A]
+
+=== Tac Pistol ===
+2x Shoot
+   Close-range Attack, +2 vs AGI, onhit deal 2 damage
+1x Reload
+   Meta -- Starts at the bottom of your deck
+
+=== Sledgehammer === 
+2x Overswing 
+    Melee attack, +0 vs AGI, onhit deal 6 damage
+3x Bonk
+    Melee Attack, +1 vs AGI, onhit deal 3 damage
+1x Reinforced Actuators
+    [H] Passive -- Your melee attacks deal 1 additional damage.
+
+=== Assault Rifle ===
+2x Snipe 
+   [+C] Mid/Long ranged attack, CPU vs AGI, onhit deal 2 damage
+3x Burst Fire
+   Play Effect --
+      Close/Mid ranged attack, +2 vs AGI, onhit deal 2 damage
+      Close/Mid ranged attack, +3 vs AGI, onhit deal 1 damage
+1x Reload
+   Meta -- Starts at the bottom of your deck.
+   
+=== Utility Bay ===
+Frag Grenade 
+   Play Effect -- Deal 1 damage (reduced by hull) to all enemies in close range, then scrap me.
+Emergency Coolant
+   Play Effect -- If you have more heat than you heat gauge can hold, 
+      clear your heat gauge, then scrap me. (any excess heat refills your gauge)
+Fuel Injectors
+   [+A] Play Effect -- Draw a card, take 1 heat.
+Ablative Armor
+   [+H] Reaction -- when you would take damage, reduce that damage by 2 to a minimum of 0, then scrap me.
+GMS Core
+   [+CHA]
+   
+
+
+
+
+steel plating
+2x tac pistol
+ablative armor
+fuel injectors
+GMS core
+
+
+
+-- launches attack  (stats, skillcheck, damage)
+Foo attacks Baz
+-- graze (or solid or miss)
+Grazing hit for 3 damage.
+-- take damage
+--- ablative armor
+Ablative armor procs, mitigating 2 damage.
+Baz takes 1 damage.
+-- take reactor stress
+Baz takes 1 reactor stress.
+
+
+
+
+
+
+
+
+=== Divine Sunderer ===
+Stats: 40 AD, 20 AH, 400 HP
+Scale: 5% APEN, 5% MPEN
+Spellblade:
+    --------------------------------------------------------------------------
+    After using a spell, your next attack hits for 250% damage,
+    and heals you for about 10 percent of your health bar.
+
+    Against tanky enemies, this scales to dealing 350% damage,
+    and healing for about 20 percent of your health bar.
+
+    -------------------------------------------------------------------------
+    While nominally anti-tank, the flat damage hurts squishies --
+    against most 3-item ADCs, if you have sunderer + 2 other AD items, 
+    each spellblade proc will hit for about a quarter of their HP bar.
+
+    This wins most tank vs tank fights if you can consistently proc it.
+    In a 10s skirmish, against an enemy with (sunfire, thornmail, sterak's)
+        spellblade heals you for 40% of your hp
+        spellblade deals 40% of enemy hp
+
+=== Eclipse ===
+Stats: 55 AD, 18 Lethality, 8% omnivamp
+Scale: 4% APEN
+Ever Rising Moon:
+    deal 6% of their hp
+    for 2 seconds
+        15% movespeed
+        15% of your health as shield
+
+12% APEN + 15 = 30 armor reduction
+
+=== Eclipse vs Divine Sunderer ===
+    
+    Both give damage and armor reduction (Eclipse wins slightly)
+    Both give sustain (Sunderer wins)
+        Eclipse relies on you to deal damage, with 8% omnivamp.
+        Eclipse grants about a 200-300 point shield every 8 seconds.
+        Sunderer gives 200-300 hp per swing, about 3x every 8 seconds.
+        If you can deal 6k damage in 8s you break even.
+        
+    Sunderer gives +400 HP
+    Eclipse gives speed boost 
+    
+
